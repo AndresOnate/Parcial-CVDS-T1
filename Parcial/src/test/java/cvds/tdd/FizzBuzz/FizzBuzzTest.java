@@ -12,7 +12,7 @@ public class FizzBuzzTest {
         
         //Arrange
         int input = 9;
-        String expectedOutput = "Fizz";
+        String expectedOutput = "..Fizz..";
 
         //Action
 
@@ -29,7 +29,7 @@ public class FizzBuzzTest {
         
         //Arrange
         int input = 31;
-        String expectedOutput = "Fizz";
+        String expectedOutput = "..Fizz..";
 
         //Action
 
@@ -46,7 +46,7 @@ public class FizzBuzzTest {
         
         //Arrange
         int input = 10;
-        String expectedOutput = "Buzz";
+        String expectedOutput = "..Buzz..";
 
         //Action
 
@@ -63,7 +63,7 @@ public class FizzBuzzTest {
         
         //Arrange
         int input = 52;
-        String expectedOutput = "Buzz";
+        String expectedOutput = "..Buzz..";
 
         //Action
 

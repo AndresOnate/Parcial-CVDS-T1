@@ -13,9 +13,9 @@ public class FizzBuzz {
         if ( (multipleOfFive && multipleOfthree) || (containsFive && containsThree)){
             return "FizzBuzz";
         } else if (multipleOfthree || containsThree){
-            return "Fizz";
+            return "..Fizz..";
         }else if (multipleOfFive|| containsFive){
-            return "Buzz";
+            return "..Buzz..";
         }
         return "";
     }
