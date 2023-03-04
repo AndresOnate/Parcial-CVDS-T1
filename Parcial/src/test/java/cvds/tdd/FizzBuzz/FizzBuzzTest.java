@@ -15,11 +15,9 @@ public class FizzBuzzTest {
         String expectedOutput = "..Fizz..";
 
         //Action
-
         String result = fizzBuzz.validateInput(input);
         
         //Assertion
-
         Assert.assertEquals(expectedOutput, result);
         
     }
@@ -32,11 +30,9 @@ public class FizzBuzzTest {
         String expectedOutput = "..Fizz..";
 
         //Action
-
         String result = fizzBuzz.validateInput(input);
         
         //Assertion
-
         Assert.assertEquals(expectedOutput, result);
         
     }
@@ -49,11 +45,9 @@ public class FizzBuzzTest {
         String expectedOutput = "..Buzz..";
 
         //Action
-
         String result = fizzBuzz.validateInput(input);
         
         //Assertion
-
         Assert.assertEquals(expectedOutput, result);
         
     }
@@ -66,11 +60,9 @@ public class FizzBuzzTest {
         String expectedOutput = "..Buzz..";
 
         //Action
-
         String result = fizzBuzz.validateInput(input);
         
         //Assertion
-
         Assert.assertEquals(expectedOutput, result);
         
     }
@@ -83,11 +75,9 @@ public class FizzBuzzTest {
         String expectedOutput = "FizzBuzz";
 
         //Action
-
         String result = fizzBuzz.validateInput(input);
         
         //Assertion
-
         Assert.assertEquals(expectedOutput, result);
         
     }
@@ -100,11 +90,9 @@ public class FizzBuzzTest {
         String expectedOutput = "FizzBuzz";
 
         //Action
-
         String result = fizzBuzz.validateInput(input);
         
         //Assertion
-
         Assert.assertEquals(expectedOutput, result);
         
     }
