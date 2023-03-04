@@ -17,7 +17,7 @@ public class FizzBuzz {
         }else if (multipleOfFive|| containsFive){
             return "..Buzz..";
         }
-        return "";
+        return String.valueOf(number);
     }
 
     public boolean isMultipleOfThree(int number){
